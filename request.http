@@ -1,0 +1,27 @@
+POST http://localhost:4002/products
+content-type: application/json
+
+{
+    "name": "Caderno preto",
+    "price": 16
+}
+
+###
+
+GET http://localhost:4002/products
+
+###
+
+GET http://localhost:4002/products/737393f9-f213-46a5-8d41-5e52a83f0ef2
+
+###
+PUT http://localhost:4002/products/5eda446a-caba-4340-9a74-c1f41a40db27
+content-type: application/json
+
+{
+    "name": "Caderno branco",
+    "price": 12
+}
+
+###
+DELETE http://localhost:4002/products/b856abf6-5530-4de9-a784-e68f584f3999
